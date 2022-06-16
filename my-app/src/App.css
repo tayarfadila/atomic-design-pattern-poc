@@ -1,17 +1,88 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("./static/fonts/Poppins_Family/Poppins-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("./static/fonts/Poppins_Family/Poppins-Medium.ttf") format("truetype");
+  font-weight: bold; }
+
+body {
+  font-family: 'Poppins-Regular'; }
+
+.size-44-52 {
+  font-size: 44px;
+  line-height: 52px; }
+
+.size-36-44 {
+  font-size: 36px;
+  line-height: 44px; }
+
+.size-28-36 {
+  font-size: 28px;
+  line-height: 36px; }
+
+.size-24-32 {
+  font-size: 24px;
+  line-height: 32px; }
+
+.size-18-28 {
+  font-size: 18px;
+  line-height: 28px; }
+
+.size-16-24 {
+  font-size: 16px;
+  line-height: 24px; }
+
+.size-14-20 {
+  font-size: 14px;
+  line-height: 20px; }
+
+.size-14-16 {
+  font-size: 14px;
+  line-height: 16px; }
+
+.size-12-20 {
+  font-size: 12px;
+  line-height: 20px; }
+
+.background-darkest-blue {
+  background-color: #39455E; }
+
+.content-primary-white {
+  color: #FFFFFF; }
+
+.border-bottom-transparent {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.max-width-80 {
+  max-width: 80%;
+  margin: auto; }
+
+.max-width-75 {
+  max-width: 75%;
+  margin: auto; }
+
+.max-width-50 {
+  max-width: 50%;
+  margin: auto; }
+
+.display-flex {
+  display: flex; }
+
+.justify-content-space-between {
+  justify-content: space-between; }
+
 .App {
-  text-align: center;
-}
+  text-align: center; }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    animation: App-logo-spin infinite 20s linear; } }
 
 .App-header {
   background-color: #282c34;
@@ -21,18 +92,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; }
 
 .App-link {
-  color: #61dafb;
-}
+  color: #61dafb; }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   to {
-    transform: rotate(360deg);
-  }
-}
+    transform: rotate(360deg); } }

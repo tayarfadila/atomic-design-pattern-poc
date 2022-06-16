@@ -1,0 +1,1 @@
+export const FlexDivSpaceBetween = (props) => (<div className="display-flex justify-content-space-between">{props.children}</div>);

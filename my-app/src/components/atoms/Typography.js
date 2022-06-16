@@ -1,0 +1,9 @@
+export const Header1 = (props) => (<div className="size-44-52">{props.children}</div>);
+export const Header2 = (props) => (<div className="size-36-44">{props.children}</div>);
+export const Header3 = (props) => (<div className="size-28-36">{props.children}</div>);
+export const Header4 = (props) => (<div className="size-24-32">{props.children}</div>);
+export const Header5 = (props) => (<div className="size-18-28">{props.children}</div>);
+export const Header6 = (props) => (<div className="size-16-24">{props.children}</div>);
+export const Small1 = (props) => (<div className="size-14-20">{props.children}</div>);
+export const Small2 = (props) => (<div className="size-14-16">{props.children}</div>);
+export const Small3 = (props) => (<div className="size-12-20">{props.children}</div>);

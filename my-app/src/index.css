@@ -1,10 +1,11 @@
 @font-face {
-  font-family: 'Poppins-Medium';
-  src: url("./static/fonts/Poppins_Family/Poppins-Medium.ttf") format("truetype"); }
+  font-family: 'Poppins-Regular';
+  src: url("./static/fonts/Poppins_Family/Poppins-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Poppins-Regular';
-  src: url("./static/fonts/Poppins_Family/Poppins-Regular.ttf") format("truetype"); }
+  src: url("./static/fonts/Poppins_Family/Poppins-Medium.ttf") format("truetype");
+  font-weight: bold; }
 
 body {
   font-family: 'Poppins-Regular'; }
